@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+input="$@"
+echo $(sgpt "Explain the following command: ${input@Q}")
